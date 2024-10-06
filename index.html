@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Note Keeper</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>The Note Keeper 📚</h1>
+        <button id="add-folder">Add Notebook</button>
+        <button id="add-note">Add Note</button>
+    </header>
+    
+    <div id="folders-list"></div>
+    
+    <div id="notes-list"></div>
+    
+    <div id="note-editor">
+        <input type="text" id="note-title" placeholder="Title">
+        <textarea id="note-content" placeholder="Content"></textarea>
+        <select id="folder-select"></select>
+        <button id="save-note">Save</button>
+        <button id="cancel-edit">Cancel</button>
+    </div>
+
+    <div id="folder-editor">
+        <input type="text" id="folder-name" placeholder="Notebook Name">
+        <button id="save-folder">Save</button>
+        <button id="cancel-folder">Cancel</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
